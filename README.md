@@ -30,7 +30,7 @@ Employees Membership Daily Report a website that displays daily reports of emplo
 5. Create a database with the name cinemars_ticket_booking, and Import file sql to **phpmyadmin**
 6. Open Postman desktop application or Chrome web app extension that has installed before
 7. Choose HTTP Method and enter request url.(ex. localhost:3000/)
-8. You can see all the end point [here](https://documenter.getpostman.com/view/14947284/TzJphKMR)
+8. You can see all the end point [here](https://documenter.getpostman.com/view/14947284/Tzz7Nxkw)
 9. Type `npm run dev`
 
 ## Set up .env file
