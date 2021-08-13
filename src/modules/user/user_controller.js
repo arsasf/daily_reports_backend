@@ -128,7 +128,6 @@ module.exports = {
           }
           const result = await userModel.updateData(setData, NIK)
           delete result.user_password
-          console.log('Sucess Update New Password !')
           return helper.response(
             res,
             200,

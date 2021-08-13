@@ -64,7 +64,6 @@ module.exports = {
     })
   },
   getDataCondition: (NIK) => {
-    console.log(NIK)
     return new Promise((resolve, reject) => {
       connection.query(
         `SELECT * FROM officialdom WHERE officialdom_nik = ${NIK}`,
@@ -95,7 +94,6 @@ module.exports = {
     })
   },
   createData: (setData) => {
-    console.log(setData)
     return new Promise((resolve, reject) => {
       connection.query(
         'INSERT INTO officialdom SET ?',

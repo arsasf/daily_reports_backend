@@ -119,7 +119,6 @@ module.exports = {
         finance: finance[0].total,
         manager: manager[0].total
       }
-      console.log(result)
       return helper.response(res, 200, 'Success Delete employees', result)
     } catch (error) {
       console.log(error)
